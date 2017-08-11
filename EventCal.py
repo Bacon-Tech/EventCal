@@ -1,16 +1,10 @@
-import os  # @UnusedImport
 import json
 import os.path
 import calendar
-import webbrowser  # @UnusedImport
 import tkinter as tk
 import datetime as dt
-from os import listdir  # @UnusedImport
 from time import strftime  # @UnusedImport
 from tkinter import messagebox  # @UnusedImport
-from tkinter import simpledialog  # @UnusedImport
-from string import ascii_letters, digits  # @UnusedImport
-from MINT.myscrollbar import MyScrollbar #customer scroll bar # @UnusedImport
 
 
 class MintApp(tk.Frame):
